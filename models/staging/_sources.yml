@@ -1,0 +1,13 @@
+sources:
+  - name: raw
+    database: m-tummala
+    schema: zomato_raw
+    tables:
+      - name: food
+        description: "This table contains the raw data of food items from Zomato."
+      - name: menu
+      - name: order_items
+      - name: orders
+      - name: restaurants
+      - name: reviews
+      - name: users
